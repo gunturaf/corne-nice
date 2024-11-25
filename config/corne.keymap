@@ -12,9 +12,10 @@
     combos {
         compatible = "zmk,combos";
 
-        toggle_l2 {
+        combo_toggle_l2 {
             bindings = <&tog 2>;
             key-positions = <41 35>;
+            timeout-ms = <2000>;
         };
     };
 
